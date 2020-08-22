@@ -1,6 +1,6 @@
 export default (matrix, size) => {
   const cellSize = size / matrix.length
-  const adjustSize = size * 0.024
+  const adjustSize = size * 0.016
   let path = ''
   matrix.forEach((row, i) => {
     let needDraw = false
